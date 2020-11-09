@@ -1,37 +1,25 @@
-# mark-force-bookmarks-app
+# URL Bookmark Application
+
 live deployment:
 https://thinkful-ei-rabbit.github.io/mark-force-bookmarks-app/
 
-Bookmarks application for Thinkful
-I built this application for the Thinkful bootcamp Engineering Immersion program.
-The user stories were completed and the details are below.
-The functionality is limited as servers are wiped every 24 hours, but you can add bookmarks as well as delete them, and sort them by the user-applied rating.
+## Summary
 
+ URL Bookmarking application used to bookmark URLs for future reference! Built with jQuery, this application can store URL's, a brief description of the website to be bookmarked, a nickname for the URL, as well as a rating determined by the user. 
+ 
+## The stack
 
-USER STORIES:
-As a user:
+  I built this application from the ground up utilizing the JavaScript library jQuery, HTML, and vanilla CSS styling. I utilized best-practices on the front-end to make asynchrynous requests to the RESTful server on the backend to send and recieve JSON data. JavaScript was used to both send and recieve AJAX requests. 
+  
+ 
+## Screenshots 
 
-I can add bookmarks to my bookmark list. Bookmarks contain:
-(completed)
-title
-url link
-description
-rating (1-5)
-(completed)
-I can see a list of my bookmarks when I first open the app
-(completed, main renders on load)
+### A shot of the home page
+![image](https://user-images.githubusercontent.com/66629254/98605806-08add600-22b4-11eb-84c2-516bf0a1cc45.png)
 
-All bookmarks in the list default to a "condensed" view showing only title and rating
-I can click on a bookmark to display the "detailed" view
-(completed, all bookmarks condense and expand with mouse and keyboard)
+### A few shots of the application in action
+![image](https://user-images.githubusercontent.com/66629254/98605837-18c5b580-22b4-11eb-8f22-ab8c17752b87.png)
 
-Detailed view expands to additionally display description and a "Visit Site" link
-I can remove bookmarks from my bookmark list
-(completed, detailed view shows delete button to remove bookmark)
+![image](https://user-images.githubusercontent.com/66629254/98605890-2aa75880-22b4-11eb-9a2d-63ec6216cec9.png)
 
-I receive appropriate feedback when I cannot submit a bookmark
-(the appropiate error message pops up as a modal to let user know about the error, clicking anywhere else closes modal)
-
-Check all validations in the API documentation (e.g. title and url field required)
-I can select from a dropdown (a <select> element) a "minimum rating" to filter the list by all bookmarks rated at or above the chosen selection
-(completed, the dropdown menu filters the displayed bookmarks by minimum rating)
+![image](https://user-images.githubusercontent.com/66629254/98605956-4448a000-22b4-11eb-8b6e-3d7fc193f4d2.png)
